@@ -108,11 +108,7 @@ public class Ctrl_CampoDeportivo {
     }
     
     
-    /**
-     * **************************************************
-     * metodo para eliminar una nueva categoria
-     * **************************************************
-     */
+  
     public boolean eliminar(int idCampo) {
         boolean respuesta = false;
         Connection cn = Conexion.conectar();
